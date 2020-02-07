@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix : <http://wade-virtuoso.org/> .
+
+:Brindusa a schema:Person .
+:Andreea a schema:Person .
+:Dan a schema:Person .
+:Alin a schema:Person .
+:Alina a schema:Person .
+
+:Brindusa :isSisterOf :Andreea .
+:Dan :isBrotherOf :Andreea .
+:Alin :isBrotherOf :Brindusa .
+:Alina :isSisterOf :Brindusa .

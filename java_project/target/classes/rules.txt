@@ -1,0 +1,4 @@
+@prefix schema: <http://schema.org/> .
+@prefix : <http://wade-virtuoso.org/> .
+
+[ruleTest: (?b :isSisterOf ?a) (?d :isBrotherOf ?a) -> (?b :areBrothers ?d), (?p1 :isSisterOf ?p2) (?p1 :isBrotherOf ?p3) -> (?p2 :areBrothers ?p3)]
